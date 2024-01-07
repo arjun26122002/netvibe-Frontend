@@ -1,0 +1,13 @@
+.PostShare{
+    display: flex;
+    gap: 1rem;
+    background-color: (--cardColor);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.PostShare>img{
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+}
