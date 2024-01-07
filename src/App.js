@@ -1,5 +1,6 @@
 import "./App.css"
-import Home from "./Pages/Home";
+// import Home from "./Pages/Home";
+import Profile from "./Pages/Profile";
 function App() {
   return (
     <div className="App">
@@ -10,7 +11,8 @@ function App() {
           top:"36%" , left:"-8rem"
         }}></div>
 
-        <Home/>
+        {/* <Home/> */}
+        <Profile />
     </div>
   );
 }
