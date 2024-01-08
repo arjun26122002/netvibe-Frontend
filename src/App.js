@@ -1,4 +1,5 @@
 import "./App.css"
+// import Auth from "./Pages/Auth";
 // import Home from "./Pages/Home";
 import Profile from "./Pages/Profile";
 function App() {
@@ -13,6 +14,7 @@ function App() {
 
         {/* <Home/> */}
         <Profile />
+        {/* <Auth /> */}
     </div>
   );
 }

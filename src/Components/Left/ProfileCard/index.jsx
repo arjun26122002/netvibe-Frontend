@@ -5,6 +5,9 @@ import "./index.css"
 
 
 const Profilecard = () => {
+
+
+  const ProfilePge = true;
   return (
     <div className="ProfileCard">
       <div className="ProfileImage">
@@ -29,13 +32,26 @@ const Profilecard = () => {
             <span>11,000</span>
             <span>Followers</span>
           </div>
+
+          {ProfilePge && (
+            <>
+              <div className="vl">
+
+              </div>
+              <div className="follow">
+                <span>
+                  3
+                </span>
+                <span>
+                  Posts
+                </span>
+              </div>
+            </>
+          )}
         </div>
         <hr />
       </div>
-
-      <span>
-          My Profile
-      </span>
+      {ProfilePge ? "" : <span>My Profile</span>}
     </div>
   )
 }
